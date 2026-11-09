@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #17251d;
+    line-height: 1.6;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 68px;
+    padding: 8px;
+    background-color: #17251d;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list a {
+    display: block;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.list a:hover {
+    background-color: #d3dfd1;
+    color: #17251d;
+}
+
+.logolinksbovenin {
+    position: absolute;
+    left: 18px;
+    width: 58px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 60px 6%;
+    scroll-margin-top: 68px;
+}
+
+section h1,
+section h2 {
+    margin: 0 0 14px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 56px;
+}
+
+section h2 {
+    font-size: 38px;
+}
+
+section p {
+    max-width: 850px;
+    margin: 0 auto 24px;
+    text-align: center;
+}
+
+.namefrontpage {
+    background-color: #C5D1EB;
+    text-align: center;
+}
+
+.paragraaffrontpage {
+    margin: 0 auto 18px;
+    font-size: 18px;
+}
+
+.home-contact-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.fotovanmezelf {
+    width: 45%;
+    height: 440px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-card {
+    width: 45%;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #e4e9f4;
+}
+
+.contact-card h2 {
+    margin: 0 0 12px;
+}
+
+.contact-card p {
+    margin: 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+    text-align: left;
+}
+
+.contact-form label {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #8794aa;
+    border-radius: 8px;
+    background-color: white;
+    color: #17251d;
+    font: inherit;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    margin-top: 8px;
+    padding: 11px 16px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #17251d;
+    color: white;
+    font: inherit;
+    font-weight: bold;
+}
+
+.contact-form button:disabled {
+    background-color: #647064;
+    cursor: not-allowed;
+}
+
+.colorinterview {
+    background-color: #92AFD7;
+}
+
+.Interviewvragen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    width: 100%;
+    max-width: 1300px;
+    margin-top: 18px;
+}
+
+.interviewbox {
+    flex: 1 1 200px;
+    padding: 20px;
+    border: 1px solid #718a75;
+    border-radius: 14px;
+    background-color: #c4d5e8;
+}
+
+.interviewbox h3 {
+    margin: 0 0 10px;
+    font-size: 17px;
+}
+
+.interviewbox p {
+    margin: 0;
+    text-align: left;
+}
+
+.colorgoals {
+    background-color: #5A7684;
+    color: white;
+}
+
+.colorhobbies {
+    background-color: #395B50;
+    color: white;
+}
+
+.hobbies-videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 12px;
+}
+3
+.hobbies-videos iframe {
+    width: 48%;
+    height: 300px;
+    border: 0;
+    border-radius: 12px;
+}
+
+.colorprojects {
+    background-color: #1F2F16;
+    color: white;
+}
+
+.project-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.project-table {
+    width: 35%;
+    border-collapse: collapse;
+    background-color: #395B50;
+}
+
+.project-table th,
+.project-table td {
+    padding: 12px;
+    border: 1px solid white;
+    text-align: left;
+}
+
+.project-info {
+    width: 60%;
+}
+
+.project-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 8px;
+}
+
+.project-images img {
+    width: 45%;
+    max-height: 420px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #17251d;
+}
+
+.footerlink {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0;
+    padding: 16px;
+    list-style: none;
+}
+
+.footerlink a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .logolinksbovenin {
+        display: none;
+    }
+
+    section h1 {
+        font-size: 42px;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+
+    .home-contact-layout {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .fotovanmezelf {
+        width: 300px;
+        height: 300px;
+    }
+
+    .contact-card {
+        width: 100%;
+        max-width: 440px;
+        margin-top: 24px;
+        padding: 24px;
+    }
+
+    .hobbies-videos,
+    .project-images {
+        flex-direction: column;
+    }
+
+    .project-layout {
+        flex-direction: column;
+    }
+
+    .project-table,
+    .project-info {
+        width: 100%;
+    }
+
+    .hobbies-videos iframe,
+    .project-images img {
+        width: 100%;
+    }
+
+    .hobbies-videos iframe {
+        height: 220px;
+    }
+
+    .project-images img {
+        max-height: 300px;
+    }
+
+}
